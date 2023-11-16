@@ -8,7 +8,7 @@ class MaintenanceLeadFormG extends HTMLElement {
 
 
 
-const go = function() {
+go = function() {
   var sa = {
     form: {
       rootEl: null,
