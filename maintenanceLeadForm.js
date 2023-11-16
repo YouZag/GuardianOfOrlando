@@ -1,9 +1,8 @@
-class LeadFormG extends HTMLElement {
+class MaintenanceLeadFormG extends HTMLElement {
   
   connectedCallback() {
     this.go();
   }
-  customElements.define('lead-form-g', LeadFormG);
 
   const go = function() {
         var sa = {
@@ -2442,11 +2441,12 @@ class LeadFormG extends HTMLElement {
           self.GetFieldValues(pageElement);
         }
         sa.form.init.push(InitializePaging);
-      })(); //# sourceURL = SaForms.js
+      })();
 
-  html = "";
-  
+  this.innerhtml = "";
+  customElements.define('maintenance-lead-form-g', MaintenanceLeadFormG);
 }
+
 
 
     <link href="https://fonts.googleapis.com/css?family=Lato&amp;amp;display=swap"
