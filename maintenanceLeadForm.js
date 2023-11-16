@@ -2443,13 +2443,8 @@ class MaintenanceLeadFormG extends HTMLElement {
         sa.form.init.push(InitializePaging);
       })();
 
-  this.innerhtml = "";
-  customElements.define('maintenance-lead-form-g', MaintenanceLeadFormG);
-}
-
-
-
-    <link href="https://fonts.googleapis.com/css?family=Lato&amp;amp;display=swap"
+  this.innerhtml = `
+  <link href="https://fonts.googleapis.com/css?family=Lato&amp;amp;display=swap"
     rel="stylesheet">
     <style>
       .flatpickr-calendar{background:transparent;opacity:0;display:none;text-align:center;visibility:hidden;padding:0;-webkit-animation:none;animation:none;direction:ltr;border:0;font-size:14px;line-height:24px;border-radius:5px;position:absolute;width:307.875px;-webkit-box-sizing:border-box;box-sizing:border-box;-ms-touch-action:manipulation;touch-action:manipulation;background:#fff;-webkit-box-shadow:1px
@@ -3393,6 +3388,6 @@ class MaintenanceLeadFormG extends HTMLElement {
         </div>
       </div>
     </div>
-  </body>
-
-</html>
+  `;
+  customElements.define('maintenance-lead-form-g', MaintenanceLeadFormG);
+}
