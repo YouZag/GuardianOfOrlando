@@ -3393,6 +3393,6 @@ class MaintenanceLeadFormG extends HTMLElement {
         }
         sa.form.init.push(InitializePaging);
       })();
-  
-  customElements.define('maintenance-lead-form-g', MaintenanceLeadFormG);
+
 }
+customElements.define('maintenance-lead-form-g', MaintenanceLeadFormG);
