@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html>
+class LeadFormG extends HTMLElement {
   
-  <head>
-    <title>
-      View Form
-    </title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-      (function() {
+  connectedCallback() {
+  }
+
+  (function() {
         var sa = {
           form: {
             rootEl: null,
@@ -2446,8 +2441,12 @@
         }
         sa.form.init.push(InitializePaging);
       })(); //# sourceURL = SaForms.js
-      
-    </script>
+
+  html = "";
+  
+}
+
+
     <link href="https://fonts.googleapis.com/css?family=Lato&amp;amp;display=swap"
     rel="stylesheet">
     <style>
