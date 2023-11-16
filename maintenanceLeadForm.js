@@ -1,9 +1,11 @@
 class LeadFormG extends HTMLElement {
   
   connectedCallback() {
+    this.go();
   }
+  customElements.define('lead-form-g', LeadFormG);
 
-  (function() {
+  const go = function() {
         var sa = {
           form: {
             rootEl: null,
