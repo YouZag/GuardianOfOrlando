@@ -4,7 +4,7 @@ class MaintenanceLeadFormG extends HTMLElement {
     
     this.go();
 
-    this.innerhtml = `
+    this.innerHTML = `
   <link href="https://fonts.googleapis.com/css?family=Lato&amp;amp;display=swap"
     rel="stylesheet">
     <style>
